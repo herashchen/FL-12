@@ -1,0 +1,231 @@
+header {
+  color: #fff; }
+
+main {
+  color: #fff; }
+
+footer {
+  color: #fff; }
+
+body {
+  margin: 0;
+  background-color: #21232e; }
+
+.header {
+  background-image: url("../img/m-h-night.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  border-bottom-right-radius: 500px 200px; }
+  .header img {
+    float: left; }
+  .header .landing-logo {
+    width: 70px; }
+    .header .landing-logo p {
+      margin: 0;
+      padding-left: 60px;
+      padding-top: 5px;
+      font-weight: bold;
+      font-family: "Fresca", sans-serif;
+      font-size: 23px;
+      line-height: 25px;
+      color: #fff; }
+  .header span {
+    font-size: 10px;
+    display: block;
+    width: 100px;
+    line-height: 15px;
+    padding-left: 8px; }
+  .header .login {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif; }
+
+.header-wrap {
+  margin-left: 150px;
+  padding-top: 10px; }
+
+.header_heading {
+  height: 126px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 700px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 2; }
+  .header_heading:after {
+    content: "";
+    display: inline-block;
+    background-color: #ff4e34;
+    position: relative;
+    width: 210px;
+    height: 40px;
+    bottom: 57px;
+    left: 0;
+    z-index: -1; }
+
+.header_text {
+  font-family: "Fresca", sans-serif;
+  margin-right: 650px; }
+
+.header_button {
+  margin-top: 20px;
+  margin-right: 90px;
+  border-radius: 4px;
+  width: 95px;
+  height: 35px;
+  background-color: #e4ad00;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #fff; }
+
+.section_text {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+  margin: 25px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 2; }
+  .section_text:after {
+    content: "";
+    display: inline-block;
+    background-color: #ff4e34;
+    position: relative;
+    width: 170px;
+    height: 40px;
+    top: 5px;
+    right: 190px;
+    z-index: -1; }
+
+.section_card_wrap {
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 150px; }
+
+.section_card_img {
+  float: left;
+  height: 250px;
+  width: 370px;
+  margin: 15px;
+  border-radius: 8px; }
+
+.section_card {
+  background-color: #3c3f4f;
+  height: 280px;
+  border-radius: 8px; }
+
+.section_link {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 200px; }
+
+.section_card_heading {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold; }
+
+.section_card_text {
+  font-family: "Fresca", sans-serif;
+  text-align: justify; }
+
+.section_card_right_container {
+  padding-left: 460px;
+  padding-right: 60px; }
+
+.section_banner {
+  background: linear-gradient(to right, #dea308, #942f52);
+  border-radius: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  width: 850px;
+  height: 130px;
+  position: absolute;
+  left: 150px;
+  top: 1590px;
+  z-index: 1; }
+  .section_banner:after {
+    content: "";
+    display: inline-block;
+    background-color: #ff4e34;
+    position: relative;
+    width: 68px;
+    height: 40px;
+    bottom: 65px;
+    left: 120px;
+    z-index: -1; }
+
+.section_banner_text_wrap {
+  height: 60px;
+  width: 500px; }
+
+.section_banner_heading {
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2; }
+
+.section_banner_text {
+  font-family: "Fresca", sans-serif;
+  margin: 0; }
+
+.section_banner_button {
+  border-radius: 4px;
+  width: 95px;
+  height: 35px;
+  background-color: #e4ad00;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin-left: 700px; }
+
+.footer-wrap {
+  background-color: #3c3f4f;
+  padding: 60px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-family: "Fresca", sans-serif;
+  font-size: 12px; }
+
+.footer_text, .footer_logo, .footer-cr {
+  display: inline-block;
+  height: 60px;
+  margin: 1em;
+  width: 250px; }
+
+.footer_logo {
+  margin-right: 175px; }
+  .footer_logo img {
+    float: left; }
+  .footer_logo p {
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-family: "Fresca", sans-serif;
+    font-size: 23px;
+    line-height: 25px; }
+  .footer_logo span {
+    font-size: 10px;
+    display: block;
+    width: 100px;
+    line-height: 15px;
+    padding-left: 8px; }
+
+.footer-cr {
+  margin-left: 175px;
+  text-align: right; }
